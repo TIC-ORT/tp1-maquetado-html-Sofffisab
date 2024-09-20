@@ -7,16 +7,30 @@ body{
 header{
     display: flex;
     width: 100%;
-    height: 30vh;
+    height: 23vh;
     background-color:rgb(9, 255, 0);
-    justify-content:flex-start;
+    justify-content:space-evenly;
     align-items:center;
     }
 .cuadradoArriba{
     background-color:rgb(255, 174, 212);
     width: 150px;
     height: 150px;
-    margin-left: 20vw;
+}
+.rectangulitoArriba{
+    background-color: darkblue;
+    margin-top: 40px;
+    height: 15px;
+    width: 150px;
+}
+footer{
+    display: flex;
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(255, 57, 123);
+    justify-content: space-evenly;
+    align-items: center;
+
 }
 h2{
     background-color: blueviolet;
@@ -26,22 +40,7 @@ h2{
 .textoUno{
     margin-left: 30vw;
 }
-.rectangulitoArriba{
-    background-color: darkblue;
-    height: 30px;
-    width: 150px;
-}
-footer{
-    display: flex;
-    width: 100%;
-    height: 15vh;
-    background-color: rgb(255, 57, 123);
-    bottom: 0px;
-    position: fixed;
-    justify-content: space-evenly;
-    align-items: center;
 
-}
 footer > h2 {
     margin-left: 30vw;
 }
